@@ -8,7 +8,7 @@ body{
     margin-top: 100px;
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-radius: 20px;
     box-shadow:  6px 6px 6px red, -6px -6px 6px blue;
 }
@@ -40,18 +40,20 @@ input{
     box-shadow: 6px 6px 6px red, -6px -6px 6px blue;
 }
 
-a{
+button, a{
     text-decoration: none;
     color: white;
     background-color: green;
     width: 100px;
-    height: 140px;
+    height:50px ;
     font-weight: 90;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 img{
     background-color: black;
-    width: 600px;
+    width: 650px;
     margin-top: -500px;
     margin-left: -450px;
     height: 400px;
